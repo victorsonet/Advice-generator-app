@@ -16,6 +16,4 @@ function getAdvice() {
     }).catch(error => console.log(error))
 }
 
-getAdvice();
-
 btn.addEventListener('click', getAdvice);
